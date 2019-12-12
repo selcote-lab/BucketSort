@@ -20,6 +20,10 @@ public class Main {
         List<Integer>[] buckets = new List[10];
 
         for (int i = 0; i < buckets.length; i++ ) {
+            // == using the linkedList for the bucket ==
+            // buckets[i] = new LinkedList<Integer>();
+
+            // == using ArrayList for the bucket ==
             buckets[i] = new ArrayList<Integer>();
         }
 
